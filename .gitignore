@@ -46,8 +46,8 @@ Generated\ Files/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
-appSettings.json
-appSettings.*.json
+appsettings.json
+appsettings.*.json
 
 # NUnit
 *.VisualState.xml
