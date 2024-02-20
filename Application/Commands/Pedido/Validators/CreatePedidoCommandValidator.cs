@@ -6,7 +6,7 @@ public class CreatePedidoCommandValidator : AbstractValidator<CreatePedidoComman
 {
     public CreatePedidoCommandValidator()
     {
-        RuleFor(x => x.EmailCliente).NotEmpty().MaximumLength(60);
+        RuleFor(x => x.EmailCliente).NotEmpty().MaximumLength(60).EmailAddress();
         RuleFor(x => x.NomeCliente).NotEmpty().MaximumLength(60);
         RuleFor(x => x.Pago).NotEmpty();
     }
